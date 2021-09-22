@@ -103,3 +103,37 @@ var canva=document.getElementById("can");
 		context.fillStyle="#fff";
 		context.closePath();
 		context.fill();
+
+		 context.beginPath();
+		context.moveTo(200,180);
+		context.lineTo(330,310);
+		context.lineTo(345,310);
+
+		context.lineTo(200,160);//tete toit
+		context.lineTo(58,305);//partie gauche du toit
+		context.lineTo(69,310);
+		context.lineTo(205,180);
+		context.stroke();
+		context.fillStyle="#4169E1";
+		context.closePath();
+		context.strokeStyle="blue";
+		context.fill();
+
+
+
+
+		 context.beginPath();
+		context.moveTo(200,180);
+		context.lineTo(330,310);
+		context.lineTo(310,310);
+
+		context.lineTo(200,200);
+		context.lineTo(86,315);
+		context.lineTo(70,310);
+		context.lineTo(180,200);
+		context.stroke();
+		context.fillStyle="#0000CC";
+		context.closePath();
+		context.strokeStyle="blue";
+		context.fill();
+
